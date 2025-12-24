@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        height:100vh;
+        display:flex;
+        background:linear-gradient(to right,rgb(169, 223, 159),rgb(144, 201, 52) );
+        justify-content: center;
+        align-items:center;
+    }
+    .Home{
+        background-color:white;
+        padding:50px;
+        border-radius: 10px;
+        box-shadow:5px 5px 9px rgb(8, 33, 16);
+        width:250px;
+    }
+    .header{
+        text-align: center;
+        margin-bottom:20px;
+    }
+    .header h1{
+        margin-bottom:10px;
+    }
+    .content{
+        text-align: center;
+    }
+    .content input{
+        padding:5px;
+        margin-bottom:10px;
+    }
+    .content h4{
+        margin-bottom:10px;
+        position:relative;
+        right:60px;
+    }
+    .sign{
+        text-align: center;
+    }
+    .buttom{
+        position: relative;
+        left:75px;
+        width:100px;
+        height:25px;
+        display: block;
+        background-color:rgb(93, 155, 93);
+        border-radius: 5px;;
+    }
+    .sign p {
+        display:inline;
+    }
+
+</style>
+<body>
+    <div class="Home">
+        <div class="header">
+            <h1>Sign up</h1>
+            <p>sign up to continue</p>
+        </div>
+     <div class="content">
+        <h4>Name</h4>
+        <input placeholder="Name">
+        <h4>Email</h4>
+        <input placeholder="Email">
+        <h4>Password</h4>
+        <input placeholder="Password">
+     </div>
+     <div class="sign">
+        <button class="buttom">Sign up</button>
+        <p>Already have an account?</p>
+        <a href="Login1.html">Log in</a>
+     </div>
+
+    </div>
+</body>
+</html>
