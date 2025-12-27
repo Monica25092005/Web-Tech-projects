@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+           background-color: rgb(43, 38, 38); 
+           text-align: center;
+           padding:20px;
+        }
+        .titlebar{
+            color:white;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .container{
+        margin-top: 40px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        }
+       .container div{
+        color:white;
+        width:200px;
+        margin:10px;
+       }
+       .container div h2{
+        color:yellow;
+       }
+    </style>
+</head>
+<body>
+    <div>
+       
+        <h1 class="titlebar">Image gallary</h1>
+         <!-- flex container -->
+          <div class="container">
+            <div>
+            <img src="p1.webp" style="width:200px; height:200px">
+            <h2>plant</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+            </div>
+            <div>
+            <img src="p2.webp" style="width:200px; height:200px">
+            <h2>sunflower</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div>
+            <img src="p3.webp" style="width:200px; height:200px">
+             <h2>mango</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div>
+            <img src="p4.webp" style="width:200px; height:200px">
+             <h2>mango</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div>
+            <img src="p5.webp" style="width:200px; height:200px">
+             <h2>mango</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div>
+            <img src="p1.webp" style="width:200px; height:200px">
+             <h2>mango</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div>
+            <img src="p1.webp" style="width:200px; height:200px">
+             <h2>mango</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
