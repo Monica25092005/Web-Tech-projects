@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     [class~="flower"]{
+      border:2px solid black;
+      width:200px;
+      background-color: yellowgreen;
+      text-align: center;
+      
+     }
+     h2{
+     /* border:2px solid black; */
+     }
+    </style>
+</head>
+<body>
+    <h1>Demo of the [attribute~=value] selector</h1>
+    <p>Elements with a title attribute containing the word "flower" is styled with a green solid border:</p>
+    <h2 class="beautyful flower">Attribute</h2>
+    <h2 class="flowers are colorful">~=</h2>
+    <h2 class="flower is favorite for butterflies">"Flower"</h2>
+</body>
+</html>

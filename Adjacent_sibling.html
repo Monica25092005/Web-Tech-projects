@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div + p {     /*this selector are used to select immediate next targeted element*/
+  background-color: gold;
+  border: 1px solid gray;
+}
+
+</style>
+</head>
+<body>
+
+<h1>The Next-sibling (+) Combinator</h1>
+
+<div>
+  <p>Donald Duck lives in Duckburg.</p>
+</div>
+
+<div>
+  <span><p>I will not be styled.</p></span>
+  <p>I will not be styled.</p>
+</div>
+
+<p>Donald Duck's best friend is Mickey.</p>
+
+<p>Some other text.</p>
+
+</body>
+</html>
