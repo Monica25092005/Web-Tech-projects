@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input  id="num1" value="30">
+    <input  id="num2" value="40"> <br>
+    <button onclick="add()" id="n">Add</button>
+    <p id="result">Result</p>
+</body>
+
+<script>
+    //selecting input box 1
+    //selsecting input box 2
+var box1=document.getElementById("num1")
+var box2=document.getElementById("num2")
+//selecting result
+var result=document.getElementById("result")
+
+var Boxes=Number(box1.value)+Number(box2.value)//youtube 1:57:1
+function add(){
+result.textContent=Boxes
+}
+console.log(Boxes)
+
+
+
+</script>
+</html>
